@@ -5,6 +5,7 @@ import cors from 'cors';
 // import User from './models/User.js';
 import authenticate from './middlewares/auth.js'
 import dotenv from 'dotenv';
+import './db.js';
 dotenv.config();
 
 const app = express();
